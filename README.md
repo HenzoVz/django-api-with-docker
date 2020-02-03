@@ -8,7 +8,8 @@ API em Django utilizando container docker para executar uma instância do Postgr
 
 #### Configuração do banco de dados dentro *settings.py* 
 
-DATABASES = {
+
+    DATABASES = {
     
     'default': {
         
@@ -25,5 +26,4 @@ DATABASES = {
         'PORT': '5432',
      
      }
- 
- }
+    }  
