@@ -8,7 +8,7 @@ API em Django utilizando container docker para executar uma instância do Postgr
 
 #### Configuração do banco de dados dentro *settings.py* 
 
-** DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': os.environ.get('DB_NAME', 'database_name'),
